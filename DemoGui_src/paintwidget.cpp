@@ -1,9 +1,11 @@
 #include "paintwidget.h"
 
+extern char* modelFile;
+
 paintWidget::paintWidget(QWidget *parent)
     : QWidget(parent)
 {
-filename = "room_model3.txt";
+	filename = modelFile;
 }
 
 paintWidget::~paintWidget()

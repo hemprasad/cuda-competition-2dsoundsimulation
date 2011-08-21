@@ -79,7 +79,7 @@ int main(int argc, char** argv)
 	int subr_y = r_y - (*blockMaps)[recvIdx]->y_offset;
 */
 
-    Mat totalMap = Mat::zeros(model.rows, model.cols, CV_32FC1);
+    Mat totalMap = Mat::zeros(model.rows, model.cols, CV_32FC1) + 128;
 
   	printf("Number of blocks is %i. Enter simulation.\n", blockMaps->size());
 

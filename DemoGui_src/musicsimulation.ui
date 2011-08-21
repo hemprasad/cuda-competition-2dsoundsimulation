@@ -76,7 +76,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Room Model 3</string>
+     <string>Room Model</string>
     </property>
    </widget>
    <widget class="QPushButton" name="exitButton">
